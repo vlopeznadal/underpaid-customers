@@ -1,7 +1,7 @@
 def accounting(text_file):
     customer_orders = open(text_file)
     for order in customer_orders:
-        line = order.rstrip()
+        order = order.rstrip()
         words = order.split('|')
 
         melon_cost = 1.00
